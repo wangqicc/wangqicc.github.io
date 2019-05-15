@@ -14,6 +14,13 @@
 
 
 
+  
+  
+    
+    
+  <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
+  <link href="/lib/pace/pace-theme-loading-bar.min.css?v=1.0.2" rel="stylesheet">
+
 
 
 
@@ -68,7 +75,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT">
+  <meta name="keywords" content="markdown,入门,">
 
 
 
@@ -79,13 +86,18 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="巫师">
-<meta property="og:url" content="http://yoursite.com/tags/tag3/index.html">
+<meta name="description" content="markdown 入门1、基本语法 添加图片（![文本描述]加上()) 也可以通过拖拽到页面的方式   引用(&amp;gt;空格)   标题(#空格：一级标题；######空格：六级标题)   无序列表（*空格）  有序列表（1.空格）   任务列表（-空格[空格]空格）   代码块（~~~空格java）   数学公式（$$回车）   表格（|空格表头空格|空格表头空格|）   水平线（***或—）">
+<meta name="keywords" content="markdown,入门">
+<meta property="og:type" content="article">
+<meta property="og:title" content="markdown 文档入门">
+<meta property="og:url" content="http://yoursite.com/2019/5/16/markdown 文档入门/index.html">
 <meta property="og:site_name" content="巫师">
+<meta property="og:description" content="markdown 入门1、基本语法 添加图片（![文本描述]加上()) 也可以通过拖拽到页面的方式   引用(&amp;gt;空格)   标题(#空格：一级标题；######空格：六级标题)   无序列表（*空格）  有序列表（1.空格）   任务列表（-空格[空格]空格）   代码块（~~~空格java）   数学公式（$$回车）   表格（|空格表头空格|空格表头空格|）   水平线（***或—）">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2019-05-15T16:38:20.389Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="巫师">
+<meta name="twitter:title" content="markdown 文档入门">
+<meta name="twitter:description" content="markdown 入门1、基本语法 添加图片（![文本描述]加上()) 也可以通过拖拽到页面的方式   引用(&amp;gt;空格)   标题(#空格：一级标题；######空格：六级标题)   无序列表（*空格）  有序列表（1.空格）   任务列表（-空格[空格]空格）   代码块（~~~空格java）   数学公式（$$回车）   表格（|空格表头空格|空格表头空格|）   水平线（***或—）">
 
 
 
@@ -95,7 +107,7 @@
     root: '/',
     scheme: 'Gemini',
     version: '5.1.4',
-    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":true,"scrollpercent":true,"onmobile":false},
     fancybox: true,
     tabs: true,
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
@@ -115,13 +127,24 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/tags/tag3/">
+  <link rel="canonical" href="http://yoursite.com/2019/5/16/markdown 文档入门/">
 
 
 
 
 
-  <title>标签: tag3 | 巫师</title>
+
+<script>
+    (function(){
+        if(''){
+            if (prompt('请输入密码') !== ''){
+                alert('密码错误');
+                history.back();
+            }
+        }
+    })();
+</script>
+  <title>markdown 文档入门 | 巫师</title>
   
 
 
@@ -140,8 +163,13 @@
     
   
 
-  <div class="container sidebar-position-left ">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
+    
+    
+    <a href="https://github.com/wangqicc" class="github-corner" aria-label="View source on GitHub"><svg width="80" height="80" viewbox="0 0 250 250" style="fill:#cac; color:#eee; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"/><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"/><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"/></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+    
+    <script id="ribbon" src="/lib/canvas-ribbon/canvas-ribbon.js"></script>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
       <div class="header-inner"><div class="site-brand-wrapper">
@@ -186,16 +214,6 @@
         </li>
       
         
-        <li class="menu-item menu-item-tags">
-          <a href="/tags/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
-            
-            标签
-          </a>
-        </li>
-      
-        
         <li class="menu-item menu-item-categories">
           <a href="/categories/" rel="section">
             
@@ -206,12 +224,32 @@
         </li>
       
         
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
+            
+            标签
+          </a>
+        </li>
+      
+        
         <li class="menu-item menu-item-archives">
           <a href="/archives/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
             
             归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br>
+            
+            关于
           </a>
         </li>
       
@@ -256,7 +294,6 @@
 </nav>
 
 
-
  </div>
     </header>
 
@@ -266,52 +303,280 @@
           <div id="content" class="content">
             
 
-  
-  
-  
-  <div class="post-block tag">
+  <div id="posts" class="posts-expand">
+    
 
-    <div id="posts" class="posts-collapse">
-      <div class="collection-title">
-        <h1>tag3<small>标签</small>
-        </h1>
-      </div>
+  
 
-      
-        
+  
+  
+  
 
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/5/16/markdown 文档入门/">
 
-      <h2 class="post-title">
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="wangqicc">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/和泉纱雾.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="巫师">
+    </span>
+
+    
+      <header class="post-header">
+
         
-            <a class="post-title-link" href="/2019/5/13/my-favorite-wangzhi/" itemprop="url">
-              
-                <span itemprop="name">my favorite wangzhi</span>
-              
-            </a>
         
-      </h2>
+          <h1 class="post-title" itemprop="name headline">markdown 文档入门</h1>
+        
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2019-05-13T20:07:21+08:00" content="2019-05-13">
-          05-13
-        </time>
-      </div>
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-05-16T00:36:02+08:00">
+                2019-05-16
+              </time>
+            
 
-    </header>
-  </article>
+            
 
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/tools/" itemprop="url" rel="index">
+                    <span itemprop="name">tools</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2019/5/16/markdown 文档入门/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2019/5/16/markdown 文档入门/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+            <span class="post-meta-divider">|</span>
+            <span class="page-pv"><i class="fa fa-file-o"></i>
+            <span class="busuanzi-value" id="busuanzi_value_page_pv"></span>
+            </span>
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h1 id="markdown-入门"><a href="#markdown-入门" class="headerlink" title="markdown 入门"></a>markdown 入门</h1><h2 id="1、基本语法"><a href="#1、基本语法" class="headerlink" title="1、基本语法"></a>1、基本语法</h2><blockquote>
+<p>添加图片（![文本描述]加上())</p>
+<p>也可以通过拖拽到页面的方式</p>
+</blockquote>
+<blockquote>
+<p>引用(&gt;空格)</p>
+</blockquote>
+<blockquote>
+<p>标题(#空格：一级标题；######空格：六级标题)</p>
+</blockquote>
+<blockquote>
+<p>无序列表（*空格） </p>
+<p>有序列表（1.空格）</p>
+</blockquote>
+<blockquote>
+<p>任务列表（-空格[空格]空格）</p>
+</blockquote>
+<blockquote>
+<p>代码块（~~~空格java）</p>
+</blockquote>
+<blockquote>
+<p>数学公式（$$回车）</p>
+</blockquote>
+<blockquote>
+<p>表格（|空格表头空格|空格表头空格|）</p>
+</blockquote>
+<blockquote>
+<p>水平线（***或—）</p>
+</blockquote>
+<blockquote>
+<p>斜字体（**或__中间加上文字）</p>
+<p>强调（<em>**</em>或____中间加上文字）</p>
+<p>删除线（~~~~中间加上文字）</p>
+<p>下划线（<u></u>中间加上文字）</p>
+</blockquote>
+<blockquote>
+<p>链接（[链接名]加上(地址)）</p>
+</blockquote>
+<blockquote>
+<p>代码块（<code></code>中间加上代码）</p>
+</blockquote>
+<blockquote>
+<p>Emoji（:加上英文标识:）:happy:</p>
+</blockquote>
+<h2 id="2、进阶语法"><a href="#2、进阶语法" class="headerlink" title="2、进阶语法"></a>2、进阶语法</h2><blockquote>
+<p>生成目录（[toc]）</p>
+</blockquote>
+<center>居中文字</center>
+
+<style type="text/css">
+    .article {
+        background-color: #cac;
+        color: grey;
+        border-left: 6px solid #c8c;
+        padding: 8px 16px;
+    }
+</style>
+
+<h2 id="3、自定义主题"><a href="#3、自定义主题" class="headerlink" title="3、自定义主题"></a>3、自定义主题</h2><blockquote>
+<p>文件–&gt;偏好设置–&gt;打开主题文件夹</p>
+<p>创建 github.user.css 文件，如果选择 github 主题的话，则该文件起作用</p>
+<p>创建 base.user.css 文件，该文件对所有样式均起作用</p>
+</blockquote>
+<h2 id="4、常用Emoji"><a href="#4、常用Emoji" class="headerlink" title="4、常用Emoji"></a>4、常用Emoji</h2><blockquote>
+<p>:sparkles: sparkles 添加新文件</p>
+<p>:art: art 修改文件</p>
+<p>:cold_sweat: cold_sweat 有疑问，需确认（非技术上的问题）</p>
+<p>:construction: construction 未完成</p>
+<p>:bug: bug 有问题，需确认</p>
+<p>:memo: memo（可能）还需要做的事情</p>
+<p>:clap: clap 学到了，知道了</p>
+<p>:question: question 需要研究一下</p>
+<p>:exclamation: exclamation 需要注意，别忘了</p>
+<p>:pushpin: pushpin 标记，告知，声明，常用</p>
+<p>:x: x 纯删除，没有添加新的替代</p>
+<p>:joy: joy 笑哭</p>
+<p>:smirk:smirk 幸灾乐祸的笑</p>
+<p>:pensive:pensive 忧郁</p>
+<p>:stuck_out_tongue_winking_eye:stuck_out_tongue_winking_eye 调皮</p>
+<p>:unamused:unamused 一脸不快</p>
+<p>:octocat:octocat 章鱼猫</p>
+</blockquote>
 
       
     </div>
+    
+    
+    
 
+    
+
+    
+    
+    
+    
+      <div>
+        <div>
+    
+        <div style="text-align:center;color: #ccc;font-size:14px;">-------------本文结束-------------<i class="fa fa-paw"></i>-------------感谢阅读-------------</div>
+    
+</div>
+      </div>
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            
+            <a href="/tags/markdown/" rel="tag"><i class="fa fa-tag"></i> markdown</a>
+          
+            
+            <a href="/tags/入门/" rel="tag"><i class="fa fa-tag"></i> 入门</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2019/5/13/hello world/" rel="next" title="Hello World">
+                <i class="fa fa-chevron-left"></i> Hello World
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </div>
   
   
   
+  </article>
 
-  
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -319,6 +584,13 @@
 
 
           
+
+  
+    <div class="comments" id="comments">
+    </div>
+  
+
+  
 
         </div>
         
@@ -339,10 +611,21 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image" src="/images/和泉纱雾.jpg" alt="wangqicc">
             
               <p class="site-author-name" itemprop="name">wangqicc</p>
               <p class="site-description motion-element" itemprop="description"></p>
@@ -355,22 +638,31 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
             
 
             
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-name">分类</span>
+                </a>
+              </div>
+            
 
             
               
               
               <div class="site-state-item site-state-tags">
-                
-                  <span class="site-state-item-count">3</span>
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">标签</span>
-                
+                </a>
               </div>
             
 
@@ -379,11 +671,49 @@
           
 
           
+            <div class="links-of-author motion-element">
+                
+                  <span class="links-of-author-item">
+                    <a href="https://github.com/wangqicc" target="_blank" title="GitHub">
+                      
+                        <i class="fa fa-fw fa-github"></i>GitHub</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="mailto:wq1720905626@gmail.com" target="_blank" title="E-Mail">
+                      
+                        <i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                  </span>
+                
+            </div>
+          
 
           
           
 
           
+          
+            <div class="links-of-blogroll motion-element links-of-blogroll-inline">
+              <div class="links-of-blogroll-title">
+                <i class="fa  fa-fw fa-link"></i>
+                求包养
+              </div>
+              <ul class="links-of-blogroll-list">
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://www.zhangxinxu.com/" title="张鑫旭" target="_blank">张鑫旭</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://www.dreamwings.cn" title="千千" target="_blank">千千</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://diygod.me/" title="DIYgod" target="_blank">DIYgod</a>
+                  </li>
+                
+              </ul>
+            </div>
           
 
           
@@ -392,7 +722,30 @@
       </section>
 
       
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
 
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#markdown-入门"><span class="nav-number">1.</span> <span class="nav-text">markdown 入门</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1、基本语法"><span class="nav-number">1.1.</span> <span class="nav-text">1、基本语法</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2、进阶语法"><span class="nav-number">1.2.</span> <span class="nav-text">2、进阶语法</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3、自定义主题"><span class="nav-number">1.3.</span> <span class="nav-text">3、自定义主题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4、常用Emoji"><span class="nav-number">1.4.</span> <span class="nav-text">4、常用Emoji</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+        <div class="back-to-top">
+          <i class="fa fa-arrow-up"></i>
+          
+            <span id="scrollpercent"><span>0</span>%</span>
+          
+        </div>
       
 
     </div>
@@ -460,11 +813,6 @@
       </div>
     </footer>
 
-    
-      <div class="back-to-top">
-        <i class="fa fa-arrow-up"></i>
-        
-      </div>
     
 
     
@@ -558,6 +906,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
@@ -959,5 +1311,5 @@
 
   
 
-<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/koharu.model.json"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true},"react":{"opacity":0.7}});</script></body>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/koharu.model.json"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true},"react":{"opacity":0.8}});</script></body>
 </html>
