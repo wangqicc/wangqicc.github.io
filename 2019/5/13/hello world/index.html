@@ -376,7 +376,7 @@
 
           
             <span class="post-meta-divider">|</span>
-            <span class="page-pv"><i class="fa fa-file-o"></i>
+            <span class="page-pv"><i class="fa fa-eye"></i>
             <span class="busuanzi-value" id="busuanzi_value_page_pv"></span>
             </span>
           
@@ -418,14 +418,38 @@
 
     
     
-    
-    
       <div>
         <div>
     
-        <div style="text-align:center;color: #ccc;font-size:14px;">-------------本文结束-------------<i class="fa fa-paw"></i>-------------感谢阅读-------------</div>
+        <div style="text-align:center;color: #ccc;font-size:14px;">-------------  END -------------</div>
     
 </div>
+      </div>
+    
+
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div><i class="fab fa-grip-vertical"></i></div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>打赏</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="/images/wechatpay.png" alt="wangqicc 微信支付">
+        <p>微信支付</p>
+      </div>
+    
+
+    
+
+    
+
+  </div>
+</div>
+
       </div>
     
 
@@ -858,7 +882,7 @@
         notify: false,
         appId: '81NozFJyBvjAe5yjm25i55yO-gzGzoHsz',
         appKey: 'nGF4e1dNAwsIl5HAdJcdTjL0',
-        placeholder: '歹，何方妖孽，还不快快现出原形！',
+        placeholder: 'ヾ(●゜▽゜●)♡ 真的不说两句吗？',
         avatar:'mm',
         guest_info:guest,
         pageSize:'10' || 10,
