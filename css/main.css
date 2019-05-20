@@ -1883,7 +1883,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #75dbde;
+  background: #987017;
 }
 .feed-link,
 .chat {
@@ -3240,4 +3240,63 @@ time.post-time {
 .links-of-author-item {
   width: 52px;
   height: 42px;
+}
+.post-badge {
+  position: absolute;
+  left: -16px;
+  top: 105px;
+  border-color: #47456d;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.2), 0 1px 5px 0 rgba(0,0,0,0.12);
+  background-color: #97dffd;
+  margin: 5px 0 15px 2px;
+  font-size: 14px;
+  border-radius: 0 4px 4px 0;
+  display: inline-block;
+  padding: 7px 11px 7px 32px;
+  line-height: 1;
+}
+.post-badge:after {
+  position: absolute;
+  content: "";
+  top: 100%;
+  left: 0;
+  border-top: 0 solid transparent;
+  border-right-width: 1em;
+  border-right-color: inherit;
+  border-right-style: solid;
+  border-bottom: 1em solid transparent;
+  border-left: 0 solid transparent;
+  width: 0;
+  height: 0;
+}
+.post-badge a {
+  color: #fff;
+  border-bottom: none;
+}
+.post {
+  position: relative;
+  margin-bottom: 40px;
+}
+.post-date {
+  position: absolute;
+  display: block;
+  top: -20px;
+  left: -30px;
+  width: 70px;
+  height: 60px;
+  padding-top: 10px;
+  border-radius: 100px;
+  color: #fff;
+  background-color: #97dffd;
+  text-align: center;
+  line-height: 1.1;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.2), 0 1px 5px 0 rgba(0,0,0,0.12);
+}
+.post-date .post-day {
+  font-size: 30px;
+  font-weight: 700;
+}
+.main-inner,
+.header-inner {
+  margin-top: 36px;
 }
