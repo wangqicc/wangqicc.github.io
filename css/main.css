@@ -1883,7 +1883,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #987017;
+  background: #4194ff;
 }
 .feed-link,
 .chat {
@@ -3275,7 +3275,7 @@ time.post-time {
 }
 .post {
   position: relative;
-  margin-bottom: 40px;
+  margin-bottom: 36px;
 }
 .post-date {
   position: absolute;
@@ -3296,7 +3296,24 @@ time.post-time {
   font-size: 30px;
   font-weight: 700;
 }
-.main-inner,
-.header-inner {
+@media (max-width: 991px) {
+  .post-date {
+    display: none;
+  }
+  .post-badge {
+    display: none;
+  }
+  .main-inner,
+  .header-inner {
+    margin-top: 0px;
+  }
+  .github-corner {
+    display: none;
+  }
+}
+.main-inner {
   margin-top: 36px;
+}
+.header-inner {
+  margin-top: 12px;
 }
