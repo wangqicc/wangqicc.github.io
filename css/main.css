@@ -1883,7 +1883,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #4194ff;
+  background: #fdf;
 }
 .feed-link,
 .chat {
@@ -3198,7 +3198,11 @@ time.post-time {
   bottom: 215px !important;
 }
 #chatra button {
-  background-color: #97dffd;
+  background-color: #97dffd !important;
+}
+.chatra__iframe {
+  width: 240px !important;
+  height: 320px !important;
 }
 .headband {
   height: 0;
@@ -3303,17 +3307,38 @@ time.post-time {
   .post-badge {
     display: none;
   }
-  .main-inner,
+  .main-inner {
+    margin-top: 28px !important;
+  }
   .header-inner {
-    margin-top: 0px;
+    margin-top: 0px !important;
   }
   .github-corner {
     display: none;
   }
 }
-.main-inner {
+.main-inner,
+.header-inner {
   margin-top: 36px;
 }
-.header-inner {
-  margin-top: 12px;
+.post-header,
+.post-body,
+.post-footer {
+  font-family: "Comic Sans MS", "Microsoft YaHei";
+}
+.posts-expand .post-title-link::before {
+  background-color: #cac;
+}
+.posts-expand .post-meta time,
+.post-category a,
+.post-comments-count a {
+  border-bottom: none;
+}
+.post-category a,
+.post-comments-count a {
+  color: #cac;
+}
+.post-category a:hover,
+.post-comments-count a:hover {
+  color: #ffa500;
 }
