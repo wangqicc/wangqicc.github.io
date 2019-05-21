@@ -1883,7 +1883,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #a37593;
+  background: #bdd698;
 }
 .feed-link,
 .chat {
@@ -3295,6 +3295,9 @@ time.post-time {
   .github-corner {
     display: none;
   }
+  input.vnick.vinput {
+    width: 90% !important;
+  }
 }
 .main-inner,
 .header-inner {
@@ -3337,18 +3340,21 @@ input.vlink.vinput {
   border: 2px dashed #cac !important;
   border-radius: 6px;
   box-sizing: border-box;
-  margin-left: 8px;
-  margin-right: 4px;
+  margin: 10px 4px 0 8px;
   padding: 8px 16px;
   width: 31% !important;
+}
+@media (max-width: 991px) {
+  input.vnick.vinput.vinput,
+  input.vmail.vinput,
+  input.vlink.vinput {
+    width: 96% !important;
+  }
 }
 input.vnick.vinput:hover,
 input.vmail.vinput:hover,
 input.vlink.vinput:hover {
   border: 2px dashed #ffa500 !important;
-}
-input.vlink.vinput {
-  placeholder: "网址";
 }
 div.vedit {
   border: 2px dashed #cac;
@@ -3361,6 +3367,14 @@ div.vedit:hover {
 }
 div.vwrap {
   border: none !important;
+}
+a.vnick {
+  color: #cac;
+  border-bottom: none;
+}
+span.vsys {
+  color: #fff !important;
+  background-color: #97dffd !important;
 }
 .post-toc a {
   border-bottom: none;

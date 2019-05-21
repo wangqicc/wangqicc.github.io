@@ -107,6 +107,8 @@
 
 
 
+  <link rel="alternate" href="/atom.xml" title="巫师" type="application/atom+xml">
+
 
 
   
@@ -126,6 +128,17 @@
 
 
 
+
+  <script async src="//www.googletagmanager.com/gtag/js?id=UA-140407304-1"></script>
+  <script>
+    var host = window.location.hostname;
+    if (host !== "localhost" || !true) {
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-140407304-1');
+    }
+  </script>
 
 
 
@@ -539,6 +552,13 @@
             </nav>
           
 
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
           
 
           
