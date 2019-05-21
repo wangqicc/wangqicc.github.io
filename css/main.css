@@ -1883,7 +1883,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #bdd698;
+  background: #6fc357;
 }
 .feed-link,
 .chat {
@@ -3378,4 +3378,19 @@ span.vsys {
 }
 .post-toc a {
   border-bottom: none;
+}
+span.site-title {
+  font-family: Matura MT Script Capitals;
+}
+div.feed-link.motion-element {
+  border-radius: 6px;
+  border: none;
+  background-color: #eee;
+}
+div.feed-link.motion-element:hover {
+  background-color: #97dffd;
+}
+div.feed-link.motion-element a,
+div.feed-link.motion-element i {
+  color: #ffa500;
 }
