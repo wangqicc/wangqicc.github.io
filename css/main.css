@@ -1883,7 +1883,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #00e488;
+  background: #6125ee;
 }
 .feed-link,
 .chat {
@@ -3378,6 +3378,9 @@ a.vnick {
 span.vsys {
   color: #fff !important;
   background-color: #97dffd !important;
+}
+textarea#veditor.veditor.vinput {
+  background: url("/images/ds.png") right no-repeat;
 }
 .post-toc a {
   border-bottom: none;
