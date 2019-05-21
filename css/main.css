@@ -1883,7 +1883,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #fdf;
+  background: #a37593;
 }
 .feed-link,
 .chat {
@@ -3145,29 +3145,11 @@ time.post-time {
   border-left: 4px solid #97dffd;
 }
 .post-copyright a {
-  color: #97dffd;
+  color: #cac;
   border-bottom: none;
 }
-.post-tags a:before {
-  box-sizing: border-box;
-  position: absolute;
-  left: -12px;
-  content: "";
-  border-top: 12px solid transparent;
-  border-right: 12px solid rgba(221,221,221,0.6);
-  border-bottom: 12px solid transparent;
-  transition: 300ms;
-}
-.post-tags a:after {
-  box-sizing: border-box;
-  position: absolute;
-  top: 9px;
-  left: -2px;
-  width: 5px;
-  height: 5px;
-  content: "";
-  background-color: #fff;
-  border-radius: 50%;
+.post-copyright a:hover {
+  color: #ffa500;
 }
 .post-tags a {
   border-bottom: none;
@@ -3175,6 +3157,7 @@ time.post-time {
   display: inline-block;
   padding: 0 7px 0 9px;
   margin: 0 0 0 12px;
+  border-radius: 6px;
   font-size: 12px;
   line-height: 2em;
   color: #777;
@@ -3199,10 +3182,6 @@ time.post-time {
 }
 #chatra button {
   background-color: #97dffd !important;
-}
-.chatra__iframe {
-  width: 240px !important;
-  height: 320px !important;
 }
 .headband {
   height: 0;
@@ -3341,4 +3320,48 @@ time.post-time {
 .post-category a:hover,
 .post-comments-count a:hover {
   color: #ffa500;
+}
+button.vsubmit.vbtn {
+  color: #fff;
+  background-color: #cac;
+  border: none;
+}
+button.vsubmit.vbtn:hover {
+  color: #fff;
+  background-color: #ffa500;
+  border: none;
+}
+input.vnick.vinput,
+input.vmail.vinput,
+input.vlink.vinput {
+  border: 2px dashed #cac !important;
+  border-radius: 6px;
+  box-sizing: border-box;
+  margin-left: 8px;
+  margin-right: 4px;
+  padding: 8px 16px;
+  width: 31% !important;
+}
+input.vnick.vinput:hover,
+input.vmail.vinput:hover,
+input.vlink.vinput:hover {
+  border: 2px dashed #ffa500 !important;
+}
+input.vlink.vinput {
+  placeholder: "网址";
+}
+div.vedit {
+  border: 2px dashed #cac;
+  border-radius: 6px;
+  margin-top: 8px;
+  padding: 8px 16px;
+}
+div.vedit:hover {
+  border: 2px dashed #ffa500;
+}
+div.vwrap {
+  border: none !important;
+}
+.post-toc a {
+  border-bottom: none;
 }
