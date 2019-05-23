@@ -1883,7 +1883,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #6125ee;
+  background: #4675ff;
 }
 .feed-link,
 .chat {
@@ -3072,15 +3072,38 @@ ul.breadcrumb li+li:last-child {
     margin: 8px 0 0;
   }
 }
+body {
+  cursor: url("https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/cursor/normal.cur"), auto;
+}
+a:hover {
+  cursor: url("https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/cursor/ayuda.cur"), auto;
+}
+.back-to-top:hover {
+  cursor: url("https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/cursor/No_Disponible.cur"), auto;
+}
 .post-body p a {
+  position: relative;
   color: #c9c;
   border-bottom: none;
-  border-bottom: 1px solid #c9c;
 }
 .post-body p a:hover {
   color: #ffa500;
-  border-bottom: none;
-  border-bottom: 1px solid #ffa500;
+}
+.post-body p a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.post-body p a:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ffa500;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
 }
 code {
   color: #ffa500;
@@ -3102,11 +3125,12 @@ pre {
   cursor: pointer;
   position: fixed;
   right: 50px;
-  top: -900px;
+  top: -920px;
   z-index: 2;
   width: 70px;
   height: 900px;
   background: url("/images/scroll.png");
+  animation: float 2s linear infinite;
   transition: all 0.6s ease-in-out;
   opacity: 1;
 }
@@ -3380,7 +3404,10 @@ span.vsys {
   background-color: #97dffd !important;
 }
 textarea#veditor.veditor.vinput {
-  background: url("/images/ds.png") right no-repeat;
+  background: url("/images/comment-bg.png") right no-repeat;
+  resize: vertical;
+  -webkit-background-size: contain;
+  background-size: contain;
 }
 .post-toc a {
   border-bottom: none;
@@ -3399,4 +3426,48 @@ div.feed-link.motion-element:hover {
 div.feed-link.motion-element a,
 div.feed-link.motion-element i {
   color: #ffa500;
+}
+@-moz-keyframes float {
+  from {
+    transform: translate(0, 0px);
+  }
+  65% {
+    transform: translate(0, 15px);
+  }
+  to {
+    transform: translate(0, 0px);
+  }
+}
+@-webkit-keyframes float {
+  from {
+    transform: translate(0, 0px);
+  }
+  65% {
+    transform: translate(0, 15px);
+  }
+  to {
+    transform: translate(0, 0px);
+  }
+}
+@-o-keyframes float {
+  from {
+    transform: translate(0, 0px);
+  }
+  65% {
+    transform: translate(0, 15px);
+  }
+  to {
+    transform: translate(0, 0px);
+  }
+}
+@keyframes float {
+  from {
+    transform: translate(0, 0px);
+  }
+  65% {
+    transform: translate(0, 15px);
+  }
+  to {
+    transform: translate(0, 0px);
+  }
 }

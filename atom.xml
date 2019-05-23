@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>巫师</title>
+  <title>猫の薄荷草</title>
   
   
   <link href="/atom.xml" rel="self"/>
@@ -10,7 +10,7 @@
   <id>https://wangqicc.github.io/</id>
   
   <author>
-    <name>wangqicc</name>
+    <name>wangqi</name>
     
   </author>
   
