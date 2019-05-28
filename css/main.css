@@ -1883,7 +1883,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #4675ff;
+  background: #e5c396;
 }
 .feed-link,
 .chat {
@@ -3073,13 +3073,10 @@ ul.breadcrumb li+li:last-child {
   }
 }
 body {
-  cursor: url("https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/cursor/normal.cur"), auto;
+  cursor: url("http://prupdrkk7.bkt.clouddn.com/images/cursor/normal.cur"), auto;
 }
 a:hover {
-  cursor: url("https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/cursor/ayuda.cur"), auto;
-}
-.back-to-top:hover {
-  cursor: url("https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/cursor/No_Disponible.cur"), auto;
+  cursor: url("http://prupdrkk7.bkt.clouddn.com/images/cursor/ayuda.cur"), auto;
 }
 .post-body p a {
   position: relative;
@@ -3152,7 +3149,7 @@ pre {
   background-color: #cac;
 }
 body {
-  background-image: url("/images/background-img.png");
+  background-image: url("/images/background.jpg");
 }
 time.post-time {
   color: #cac;
@@ -3413,7 +3410,7 @@ textarea#veditor.veditor.vinput {
   border-bottom: none;
 }
 span.site-title {
-  font-family: Matura MT Script Capitals;
+  font-family: 'Comic Sans MS', sans-serif;
 }
 div.feed-link.motion-element {
   border-radius: 6px;
@@ -3422,6 +3419,7 @@ div.feed-link.motion-element {
 }
 div.feed-link.motion-element:hover {
   background-color: #97dffd;
+  transition: 300ms;
 }
 div.feed-link.motion-element a,
 div.feed-link.motion-element i {
