@@ -1883,7 +1883,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff4021;
+  background: #1f74f4;
 }
 .feed-link,
 .chat {
@@ -3072,12 +3072,6 @@ ul.breadcrumb li+li:last-child {
     margin: 8px 0 0;
   }
 }
-body {
-  cursor: url("http://prupdrkk7.bkt.clouddn.com/images/cursor/normal.cur"), auto;
-}
-a:hover {
-  cursor: url("http://prupdrkk7.bkt.clouddn.com/images/cursor/ayuda.cur"), auto;
-}
 .post-body p a {
   position: relative;
   color: #c9c;
@@ -3327,7 +3321,7 @@ time.post-time {
 .post-header,
 .post-body,
 .post-footer {
-  font-family: "Comic Sans MS", "Microsoft YaHei";
+  font-family: "Comic Sans MS";
 }
 .post-title-link:hover {
   color: #cac;
