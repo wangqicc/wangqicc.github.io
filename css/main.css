@@ -1883,7 +1883,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #0dffff;
+  background: #7c9dff;
 }
 .feed-link,
 .chat {
@@ -3103,7 +3103,7 @@ a:hover {
   transition: transform 0.25s ease-out;
 }
 code {
-  color: #ffa500;
+  color: #fff;
   background-color: #cac;
 }
 .highlight,
