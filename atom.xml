@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://wangqicc.github.io/"/>
-  <updated>2019-08-30T09:30:23.788Z</updated>
+  <updated>2019-09-02T09:33:01.563Z</updated>
   <id>https://wangqicc.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>开始 hexo 博客写作之旅</title>
+    <link href="https://wangqicc.github.io/2019/9/2/%E5%BC%80%E5%A7%8B-hexo-%E5%8D%9A%E5%AE%A2%E5%86%99%E4%BD%9C%E4%B9%8B%E6%97%85/"/>
+    <id>https://wangqicc.github.io/2019/9/2/开始-hexo-博客写作之旅/</id>
+    <published>2019-09-02T09:09:11.000Z</published>
+    <updated>2019-09-02T09:33:01.563Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="开始你的-hexo-博客写作之旅"><a href="#开始你的-hexo-博客写作之旅" class="headerlink" title="开始你的 hexo 博客写作之旅"></a>开始你的 hexo 博客写作之旅</h3><p>hexo 博客初始化位置：<code>D:\myblog</code></p><p><strong>step1：</strong>打开 Git 控制台，输入 <code>cd D:\myblog</code></p><p><strong>step2：</strong>创建一篇新文章 <code>hexo new &quot;开始 hexo 博客写作之旅&quot;</code></p><p><strong>step3：</strong>在 <code>D:\myblog\source\_posts</code> 下找到 <code>开始-hexo-博客写作之旅.md</code> 文件，在里面写你想要的文章</p><p><strong>step4：</strong>发表你的文章，Git 中输入 <code>hexo g</code> 生成静态文件，再输入 <code>hexo s</code> 打开服务器，在浏览器中输入 <code>localhost:4000</code> 即可看到你的文章</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;开始你的-hexo-博客写作之旅&quot;&gt;&lt;a href=&quot;#开始你的-hexo-博客写作之旅&quot; class=&quot;headerlink&quot; title=&quot;开始你的 hexo 博客写作之旅&quot;&gt;&lt;/a&gt;开始你的 hexo 博客写作之旅&lt;/h3&gt;&lt;p&gt;hexo 博客初始化位置：&lt;
+      
+    
+    </summary>
+    
+      <category term="文档" scheme="https://wangqicc.github.io/categories/%E6%96%87%E6%A1%A3/"/>
+    
+    
+      <category term="hexo" scheme="https://wangqicc.github.io/tags/hexo/"/>
+    
+      <category term="博客" scheme="https://wangqicc.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
   
   <entry>
     <title>创建 hexo 博客</title>
