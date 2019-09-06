@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://wangqicc.github.io/"/>
-  <updated>2019-09-02T09:33:01.563Z</updated>
+  <updated>2019-09-06T02:21:53.931Z</updated>
   <id>https://wangqicc.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Git 中配置 GItHub 账号</title>
+    <link href="https://wangqicc.github.io/2019/9/6/Git-%E4%B8%AD%E9%85%8D%E7%BD%AE-GItHub-%E8%B4%A6%E5%8F%B7/"/>
+    <id>https://wangqicc.github.io/2019/9/6/Git-中配置-GItHub-账号/</id>
+    <published>2019-09-06T01:50:33.000Z</published>
+    <updated>2019-09-06T02:21:53.931Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Git-中配置-GitHub-账号"><a href="#Git-中配置-GitHub-账号" class="headerlink" title="Git 中配置 GitHub 账号"></a>Git 中配置 GitHub 账号</h3><blockquote><p>为了方便将本地的内容推送到 GitHub 仓库中，将 GitHub 账号与 Git 绑定</p></blockquote><p><strong>step1：</strong>注册一个 GitHub 账号</p><p><strong>step2：</strong>Git 中输入 <code>ssh-keygen</code> 生成 SSH 公钥</p><p><strong>step3：</strong>Git 中输入 <code>cat ~/.ssh/id_rsa.pub</code> 回车，复制显示的 SSH 公钥的内容</p><p><strong>step4：</strong>在 GitHub 中点击头像，选择 Settings 进入，在个人信息页面选择 SSH and GPG keys 进入</p><p><strong>step5：</strong>点击 New SSH key ，输入标题（Title）和公钥（Key）即可配置成功</p><p><strong>提示：</strong></p><ol><li>通过在 Git 中输入 <code>cd ~/.ssh</code> 后，再输入 <code>ls</code> 查看自己是否已经拥有秘钥，其中 <code>id_rsa</code> 为私钥，<code>id_rsa.pub</code> 为公钥</li><li>为了方便日后的管理，可以将 Title 设置为你的设备名称</li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;Git-中配置-GitHub-账号&quot;&gt;&lt;a href=&quot;#Git-中配置-GitHub-账号&quot; class=&quot;headerlink&quot; title=&quot;Git 中配置 GitHub 账号&quot;&gt;&lt;/a&gt;Git 中配置 GitHub 账号&lt;/h3&gt;&lt;blockquote&gt;
+
+      
+    
+    </summary>
+    
+      <category term="文档" scheme="https://wangqicc.github.io/categories/%E6%96%87%E6%A1%A3/"/>
+    
+    
+      <category term="Git" scheme="https://wangqicc.github.io/tags/Git/"/>
+    
+      <category term="GitHub" scheme="https://wangqicc.github.io/tags/GitHub/"/>
+    
+  </entry>
   
   <entry>
     <title>开始 hexo 博客写作之旅</title>

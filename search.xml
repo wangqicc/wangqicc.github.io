@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Git 中配置 GItHub 账号]]></title>
+    <url>%2F2019%2F9%2F6%2FGit-%E4%B8%AD%E9%85%8D%E7%BD%AE-GItHub-%E8%B4%A6%E5%8F%B7%2F</url>
+    <content type="text"><![CDATA[Git 中配置 GitHub 账号 为了方便将本地的内容推送到 GitHub 仓库中，将 GitHub 账号与 Git 绑定 step1：注册一个 GitHub 账号 step2：Git 中输入 ssh-keygen 生成 SSH 公钥 step3：Git 中输入 cat ~/.ssh/id_rsa.pub 回车，复制显示的 SSH 公钥的内容 step4：在 GitHub 中点击头像，选择 Settings 进入，在个人信息页面选择 SSH and GPG keys 进入 step5：点击 New SSH key ，输入标题（Title）和公钥（Key）即可配置成功 提示： 通过在 Git 中输入 cd ~/.ssh 后，再输入 ls 查看自己是否已经拥有秘钥，其中 id_rsa 为私钥，id_rsa.pub 为公钥 为了方便日后的管理，可以将 Title 设置为你的设备名称]]></content>
+      <categories>
+        <category>文档</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+        <tag>GitHub</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[开始 hexo 博客写作之旅]]></title>
     <url>%2F2019%2F9%2F2%2F%E5%BC%80%E5%A7%8B-hexo-%E5%8D%9A%E5%AE%A2%E5%86%99%E4%BD%9C%E4%B9%8B%E6%97%85%2F</url>
     <content type="text"><![CDATA[开始你的 hexo 博客写作之旅hexo 博客初始化位置：D:\myblog step1：打开 Git 控制台，输入 cd D:\myblog step2：创建一篇新文章 hexo new &quot;开始 hexo 博客写作之旅&quot; step3：在 D:\myblog\source\_posts 下找到 开始-hexo-博客写作之旅.md 文件，在里面写你想要的文章 step4：发表你的文章，Git 中输入 hexo g 生成静态文件，再输入 hexo s 打开服务器，在浏览器中输入 localhost:4000 即可看到你的文章]]></content>
